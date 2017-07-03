@@ -166,14 +166,6 @@ a {
 	display: block;
 }
 
-/* .categories-list {
-	position: absolute;
-	display: inline-block;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
-}
- */
 .user-menu {
 	position: absolute;
 	display: none; /* Mudar para inline-block depois de criar os menus em JS*/
@@ -340,35 +332,51 @@ a {
 	height: 20px;
 }
 
+/* Estilizações - footer */
+
 footer {
+	font-size: 0;
 	margin-top: 40px;
-	padding-top: 20px;
+	padding-top: 12px;
 	border-top: 3px double #000000;
 }
 
-/* Estilizações - footer */
-
 .footer-nav {
+	padding-bottom: 12px;
 	border-bottom: 1px dotted gray;
 }
 
+.footer-nav div, .footer-nav .newsletter {
+	font-size: 18px;
+	width:  33.33%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.footer-nav .newsletter input {
+	font-size: 14px;
+	float: left;
+	padding: 3px 3px;
+	border: 2px solid #000000;
+}
+
+.footer-nav .newsletter button {
+	font-size: 14px;
+	float: left;
+	padding: 3px 3px;
+	border: 2px solid #000000;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+.footer-nav ul li {
+	display: block;
+	padding: 5px 0;
+}
+
 .copyright {
+	font-size: 14px;
 	text-align: center;
 	color: #a3a3a3;
 }
-
-
-/* Estilizações - main/brand-slider */
-
-
-/* .brand-slider {
-	display: inline-block;
-	position: relative;
-}
-
-.brand-slider img {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-
-} */
